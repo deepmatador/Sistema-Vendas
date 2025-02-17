@@ -6,7 +6,7 @@
 
 2# Adicionar o arquivo pip do python nas variáveis de Ambiente do Windows nao vo
 
-3# ☢️ATENÇÃO! O projeto não está rodando pelo vscode
+3# ☢️ATENÇÃO! O projeto não está rodando pelo vscode entao ta
 
 - Instalar o PyCharm: https://www.jetbrains.com/pycharm/
 
