@@ -1,5 +1,5 @@
 from Request import GetLogin
-from src.functions.Admin import WindowManager
+from functions.Admin import WindowManager
 
 
 def logar(ui, janela_atual):

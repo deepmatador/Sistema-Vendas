@@ -1,7 +1,7 @@
 import sys
 from PyQt5.QtWidgets import QApplication, QMainWindow
-from src.functions.Login import logar
-from View.Uses.frmlogin import Ui_login
+from functions.Login import logar
+from view.uses.FRMlogin import Ui_login
 
 
 class MinhaJanela(QMainWindow):

@@ -1,7 +1,8 @@
 from fastapi import FastAPI, HTTPException
 import uvicorn
-from DataLogic import *
-from ModelClass.Pyclass import *
+from Datalogic import *
+from classmodel import LoginData
+
 
 # Inicializando o Servidor
 app = FastAPI()
@@ -21,3 +22,4 @@ async def RequestGetLogin(LoginForm: LoginData):
 
 if __name__ == "__main__":
     uvicorn.run("Main-server:app", host="127.0.0.1", port=8000, reload=True)
+
