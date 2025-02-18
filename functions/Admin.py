@@ -1,4 +1,4 @@
-from View.Uses.frmAdmin import Ui_FrmAdmin  # Importar interface de admin
+from view.uses.FrmAdmin import Ui_FrmAdmin
 from PyQt5.QtWidgets import QMainWindow
 
 
@@ -8,9 +8,6 @@ class FrmAdmin(QMainWindow):
         super().__init__()
         self.ui = Ui_FrmAdmin()
         self.ui.setupUi(self)
-
-
-
 
 
 

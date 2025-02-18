@@ -112,7 +112,7 @@ class Ui_login(object):
         self.pushButton.setText(_translate("MainWindow", "Acessar Sistema"))
         
 
-from View.Uses.QRC import resource_rc
+#from View.Uses.QRC import resource_rc
 
 
 

@@ -1,4 +1,4 @@
-from Request import GetLogin
+from request.Request import GetLogin
 from functions.Admin import WindowManager
 
 
