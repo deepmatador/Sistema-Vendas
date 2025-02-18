@@ -1,13 +1,19 @@
 import sys
-from PyQt5.QtWidgets import QApplication, QWidget
+from PyQt5.QtWidgets import QApplication, QMainWindow
+from src.functions.Login import logar
+from View.Uses.frmlogin import Ui_login
 
-class MinhaJanela(QWidget):
+
+class MinhaJanela(QMainWindow):
     def __init__(self):
         super().__init__()
 
-        # Configurações da janela
-        self.setWindowTitle("Minha Primeira Janela")
-        self.setGeometry(100, 100, 400, 300)  # Posição x, y e tamanho largura x altura
+        self.ui = Ui_login()
+        self.ui.setupUi(self)
+
+        # Botão de logar no sistema
+        self.ui.pushButton.clicked.connect(lambda: logar(self.ui, self))  # Passa 'self INTERFACE' e 'self' REF PARA FECHAR
+
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)  # Cria a aplicação
