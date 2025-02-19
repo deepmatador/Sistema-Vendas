@@ -52,3 +52,17 @@ async def DataLoginUser(User, Password):
     finally:
         await cursor.close()
         conn.close()
+
+async def DataloginSemBanco(User, Password):
+
+    try:
+        if (User == 'mateus' or User == 'carlos'):
+
+            if(Password == '123'):
+                
+                return {'status': 'sucess', 'message': 'Bem-vindo, administrador!','redirect': 'admin'}
+        else:
+
+              return {'status': 'error', 'message': 'Usuário ou senha incorretos'}
+    except Exception as e:
+        print("Erro ao executar a consulta sem banco de dados:", e)

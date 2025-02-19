@@ -2565,7 +2565,7 @@ class Ui_FrmAdmin(object):
 
     def retranslateUi(self, FrmAdmin):
         _translate = QtCore.QCoreApplication.translate
-        FrmAdmin.setWindowTitle(_translate("FrmAdmin", "PyStock"))
+        FrmAdmin.setWindowTitle(_translate("FrmAdmin", "PBstock"))
         self.btn_home.setToolTip(_translate("FrmAdmin", "Home"))
         self.btn_Vendas.setToolTip(_translate("FrmAdmin", "Vendas"))
         self.btn_fornecedores.setToolTip(_translate("FrmAdmin", "Fornecedores"))
@@ -2580,7 +2580,7 @@ class Ui_FrmAdmin(object):
         self.lbl_noticia1.setText(_translate("FrmAdmin", "Não recebeu seu passe? Entre em contato com o rh\n"
 "via e-mail ou faça um chamado."))
         self.lbl_noticia2.setText(_translate("FrmAdmin", "Use a vontade nossos ambientes de descontração!"))
-        self.label_3.setText(_translate("FrmAdmin", "PyStock - A melhor forma\n"
+        self.label_3.setText(_translate("FrmAdmin", "PBstock - A melhor forma\n"
 "de gerenciar estoque!"))
         self.checkBox_finalizar_app.setText(_translate("FrmAdmin", "Finalizar aplicação após 20 minutos"))
         self.lbl_titulo_configuracoes.setText(_translate("FrmAdmin", "Configurações"))
