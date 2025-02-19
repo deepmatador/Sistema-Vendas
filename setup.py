@@ -1,5 +1,7 @@
 import sys
 from PyQt5.QtWidgets import QApplication, QMainWindow
+from PyQt5.QtWidgets import QApplication, QMainWindow
+
 from functions.Login import logar
 from view.uses.FRMlogin import Ui_login
 
